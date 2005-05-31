@@ -8,7 +8,7 @@ Version:	01
 Release:	1
 License:	GPL
 Group:		X11/Amusements
-Source0:	http://www.kde-look.org/content/files/24338-Carmella_kdm-theme.tar.gz
+Source0:	http://www.kde-look.org/content/files/24338-%{_theme}_kdm-theme.tar.gz
 # Source0-md5:	163125d25181d16cf2fd4eed67238ee0
 URL:		http://www.kde-look.org/content/show.php?content=24338
 Requires:	kdebase-desktop >= 9:3.2.0
@@ -37,7 +37,7 @@ modyfikacjami.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/apps/kdm/themes/%{_theme}
 
-install Carmella_kdm-theme/*.{desktop,jpg,png,txt,xml} $RPM_BUILD_ROOT%{_datadir}/apps/kdm/themes/%{_theme}
+install %{_theme}_kdm-theme/*.{desktop,jpg,png,txt,xml} $RPM_BUILD_ROOT%{_datadir}/apps/kdm/themes/%{_theme}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
