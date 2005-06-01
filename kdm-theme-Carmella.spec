@@ -2,7 +2,7 @@
 %define		_theme		Carmella
 
 Summary:	Carmella KDM theme
-Summary(pl):	Motywm KDM Carmella
+Summary(pl):	Motyw KDM Carmella
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	1
