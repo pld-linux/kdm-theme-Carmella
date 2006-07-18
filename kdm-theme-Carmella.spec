@@ -5,13 +5,14 @@ Summary:	Carmella KDM theme
 Summary(pl):	Motyw KDM Carmella
 Name:		kdm-theme-%{_theme}
 Version:	01
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://www.kde-look.org/content/files/24338-%{_theme}_kdm-theme.tar.gz
 # Source0-md5:	163125d25181d16cf2fd4eed67238ee0
 URL:		http://www.kde-look.org/content/show.php?content=24338
 Requires:	kdebase-desktop >= 9:3.2.0
+Requires:	kdm >= 9:3.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
