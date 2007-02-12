@@ -2,7 +2,7 @@
 %define		_theme		Carmella
 
 Summary:	Carmella KDM theme
-Summary(pl):	Motyw KDM Carmella
+Summary(pl.UTF-8):   Motyw KDM Carmella
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	2
@@ -23,12 +23,12 @@ modifications made.
 
 - *** Contains Partial Nudity ***
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw KDM bazuje na motywie "Teddy's Revolution" (
 http://kdelook.org/content/show.php?content=23531 ) z kilkoma
 modyfikacjami.
 
-- *** Zawiera Czê¶ciow± Nago¶æ ***
+- *** Zawiera CzÄ™Å›ciowÄ… NagoÅ›Ä‡ ***
 
 %prep
 %setup -q -c
